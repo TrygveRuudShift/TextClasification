@@ -60,3 +60,39 @@ Result:
 ![Loss plot](figure/loss/2023-12-08T13:26:12.png)
 ![Accuracy plot](figure/accu/2023-12-08T13:26:12.png)
 
+## Model trained on: 2023-12-08T14:43:25
+
+Comment: **Failed attempt with decresing size**
+
+Result:
+
+- Test loss: 0.0866
+- Test accuracy: 0.971
+
+![Loss plot](figure/loss/2023-12-08T14:43:25.png)
+![Accuracy plot](figure/accu/2023-12-08T14:43:25.png)
+
+## Model trained on: 2023-12-08T14:52:31
+
+Comment: **Added momentum 0.3 and changed patience to 6**
+
+Result:
+
+- Test loss: 0.0557
+- Test accuracy: 0.9895
+
+![Loss plot](figure/loss/2023-12-08T14:52:31.png)
+![Accuracy plot](figure/accu/2023-12-08T14:52:31.png)
+
+## Model trained on: 2023-12-08T15:03:06
+
+Comment: **Fail using reduce lr plateau**
+
+Result:
+
+- Test loss: 0.1096
+- Test accuracy: 0.9785
+
+![Loss plot](figure/loss/2023-12-08T15:03:06.png)
+![Accuracy plot](figure/accu/2023-12-08T15:03:06.png)
+
