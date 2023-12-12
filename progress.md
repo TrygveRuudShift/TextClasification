@@ -96,3 +96,50 @@ Result:
 ![Loss plot](figure/loss/2023-12-08T15:03:06.png)
 ![Accuracy plot](figure/accu/2023-12-08T15:03:06.png)
 
+## Model trained on: 2023-12-08T16:03:59
+
+Comment: **Fail: using Adam with lr=0.1, lasted for only 3 epochs. Will test with lower lr**
+
+Result:
+
+- Test loss: 0.2667
+- Test accuracy: 0.9755
+
+![Loss plot](figure/loss/2023-12-08T16:03:59.png)
+![Accuracy plot](figure/accu/2023-12-08T16:03:59.png)
+
+## Model trained on: 2023-12-08T16:11:46
+
+Comment: **Fail: adam with lr 0.001, worse ressults and 11 epochs**
+
+Result:
+
+- Test loss: 0.1169
+- Test accuracy: 0.974
+
+![Loss plot](figure/loss/2023-12-08T16:11:46.png)
+![Accuracy plot](figure/accu/2023-12-08T16:11:46.png)
+## Model trained on: 2023-12-08T16:23:15
+
+Comment: **Success: changed opimizer to RMSprop with lr=0.001**
+
+Result:
+
+- Test loss: 0.0336
+- Test accuracy: 0.9915
+
+![Loss plot](figure/loss/2023-12-08T16:23:15.png)
+![Accuracy plot](figure/accu/2023-12-08T16:23:15.png)
+
+## Model trained on: 2023-12-08T16:30:43
+
+Comment: **Success: changed lr to 0.01**
+
+Result:
+
+- Test loss: 0.0218
+- Test accuracy: 0.994
+
+![Loss plot](figure/loss/2023-12-08T16:30:43.png)
+![Accuracy plot](figure/accu/2023-12-08T16:30:43.png)
+
